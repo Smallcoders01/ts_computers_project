@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color:#fff;
+}
+ul li{
+  list-style: none;
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+.container{
+  background-color: rgb(78, 78, 238);
+  padding: 14px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.container ul{
+  display: flex;
+}
+.login{
+  background-color: #fff;
+  padding: 6px 15px;
+  font-size: 20px;
+  border-radius: 12px;
+  position: absolute;
+  right: 40px;
+}
+.login:hover{
+  background-color: rgb(207, 204, 204);
+  cursor: pointer;
+}
+.login a{
+  text-decoration: none;
+}
